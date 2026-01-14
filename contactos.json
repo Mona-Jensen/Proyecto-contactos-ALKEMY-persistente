@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Homero Simpson",
+        "telefono": "+56959845287",
+        "correo": "hsimpson@gmail.com",
+        "direccion": "Av. Siempre Viva 743"
+    },
+    {
+        "nombre": "Martin Pescador",
+        "telefono": "+56932589546",
+        "correo": "mpescador@gmail.com",
+        "direccion": "Av. El Mar 1236"
+    },
+    {
+        "nombre": "Vito Corleone",
+        "telefono": "+56965894578",
+        "correo": "vcorleone@gmail.com",
+        "direccion": "Longfellow Avenue"
+    }
+]
