@@ -24,3 +24,20 @@ Instrucciones de Ejecución
 2. Clonar el repositorio o descargar los archivos fuente.
 3. Abrir una terminal en la carpeta del proyecto.
 4. Ejecutar la aplicación con el comando: python main_persistente.py.
+
+2. Prototipo Funcional
+El sistema permite realizar las operaciones fundamentales de gestión de información (CRUD) a través de una interfaz interactiva en la consola:
+• Agregar contactos: Captura nombre, teléfono, correo y dirección mediante la función input().
+• Editar y eliminar: Permite localizar un registro existente para modificar sus atributos o removerlo de la base de datos JSON.
+• Buscar contactos: Implementa lógica de búsqueda eficiente por nombre o número de teléfono.
+• Organización: Los datos se estructuran internamente mediante listas y diccionarios antes de ser serializados a JSON.
+
+3. Informe de Pruebas
+Metodología Se implementaron pruebas unitarias utilizando el módulo estándar de Python unittest, reflejado en el archivo import unittest.py del repositorio.
+Pruebas Realizadas
+• Registro de contactos: Validación de que los nuevos objetos se crean correctamente con todos sus atributos.
+• Búsqueda: Verificación de que el sistema retorna los resultados correctos al filtrar por nombre o teléfono.
+• Persistencia: Comprobación de que los datos escritos en contactos.json se recuperan íntegramente al reiniciar la aplicación.
+Resultados Obtenidos La presencia del módulo de pruebas garantiza que las funcionalidades principales operan según los requerimientos técnicos establecidos, asegurando un código robusto y confiable.
+
+
